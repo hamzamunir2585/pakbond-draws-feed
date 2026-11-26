@@ -1,0 +1,843 @@
+{
+  "version": "2026.11.26.1",
+  "updatedAtUtc": "2026-11-26T05:38:28Z",
+  "retentionYears": 6,
+  "scheduleUrl": "schedule.json",
+  "scheduleHash": "4f53cda18c2baa0c",
+  "yearFiles": {
+    "2020": "draws_2020.json",
+    "2021": "draws_2021.json",
+    "2022": "draws_2022.json",
+    "2023": "draws_2023.json",
+    "2024": "draws_2024.json",
+    "2025": "draws_2025.json",
+    "2026": "draws_2026.json"
+  },
+  "yearHashes": {
+    "2020": "bafb70408da8cbc8",
+    "2021": "72c66c2a4063ab0f",
+    "2022": "ff3392f5118206ec",
+    "2023": "8e8c3764cecd7ac6",
+    "2024": "21490939222eab39",
+    "2025": "7c266b284ff405ff",
+    "2026": "0383d677ee9c5581"
+  },
+  "drawFiles": {
+    "d_84_200": {
+      "url": "draws/d_84_200.json",
+      "hash": "2d80af8326805c4d",
+      "year": 2020,
+      "denomination": 200,
+      "drawNo": 84,
+      "status": "Past"
+    },
+    "d_15_40000": {
+      "url": "draws/d_15_40000.json",
+      "hash": "c67d8924f1c80f23",
+      "year": 2020,
+      "denomination": 40000,
+      "drawNo": 15,
+      "status": "Past"
+    },
+    "d_88_200": {
+      "url": "draws/d_88_200.json",
+      "hash": "10975c482a320a92",
+      "year": 2021,
+      "denomination": 200,
+      "drawNo": 88,
+      "status": "Past"
+    },
+    "d_19_40000": {
+      "url": "draws/d_19_40000.json",
+      "hash": "04b5bd56dddb81b9",
+      "year": 2021,
+      "denomination": 40000,
+      "drawNo": 19,
+      "status": "Past"
+    },
+    "d_4_25000": {
+      "url": "draws/d_4_25000.json",
+      "hash": "b3cdfb4acaa89ffe",
+      "year": 2021,
+      "denomination": 25000,
+      "drawNo": 4,
+      "status": "Past"
+    },
+    "d_88_1500": {
+      "url": "draws/d_88_1500.json",
+      "hash": "099237b18294601e",
+      "year": 2021,
+      "denomination": 1500,
+      "drawNo": 88,
+      "status": "Past"
+    },
+    "d_36_100": {
+      "url": "draws/d_36_100.json",
+      "hash": "1b6a31112fcc1dab",
+      "year": 2021,
+      "denomination": 100,
+      "drawNo": 36,
+      "status": "Past"
+    },
+    "d_88_750": {
+      "url": "draws/d_88_750.json",
+      "hash": "5d976a9e64400d4a",
+      "year": 2021,
+      "denomination": 750,
+      "drawNo": 88,
+      "status": "Past"
+    },
+    "d_87_200": {
+      "url": "draws/d_87_200.json",
+      "hash": "9ef65b3c33506b9f",
+      "year": 2021,
+      "denomination": 200,
+      "drawNo": 87,
+      "status": "Past"
+    },
+    "d_18_40000": {
+      "url": "draws/d_18_40000.json",
+      "hash": "e4f035dc23332c6e",
+      "year": 2021,
+      "denomination": 40000,
+      "drawNo": 18,
+      "status": "Past"
+    },
+    "d_3_25000": {
+      "url": "draws/d_3_25000.json",
+      "hash": "ef125e3347770f14",
+      "year": 2021,
+      "denomination": 25000,
+      "drawNo": 3,
+      "status": "Past"
+    },
+    "d_87_1500": {
+      "url": "draws/d_87_1500.json",
+      "hash": "e5e50194704a9133",
+      "year": 2021,
+      "denomination": 1500,
+      "drawNo": 87,
+      "status": "Past"
+    },
+    "d_87_750": {
+      "url": "draws/d_87_750.json",
+      "hash": "e9222c7df33df865",
+      "year": 2021,
+      "denomination": 750,
+      "drawNo": 87,
+      "status": "Past"
+    },
+    "d_86_200": {
+      "url": "draws/d_86_200.json",
+      "hash": "60edfeab8594e916",
+      "year": 2021,
+      "denomination": 200,
+      "drawNo": 86,
+      "status": "Past"
+    },
+    "d_17_40000": {
+      "url": "draws/d_17_40000.json",
+      "hash": "ef253ca524f56b01",
+      "year": 2021,
+      "denomination": 40000,
+      "drawNo": 17,
+      "status": "Past"
+    },
+    "d_2_25000": {
+      "url": "draws/d_2_25000.json",
+      "hash": "abe84e324420d099",
+      "year": 2021,
+      "denomination": 25000,
+      "drawNo": 2,
+      "status": "Past"
+    },
+    "d_86_1500": {
+      "url": "draws/d_86_1500.json",
+      "hash": "808accdbda60797b",
+      "year": 2021,
+      "denomination": 1500,
+      "drawNo": 86,
+      "status": "Past"
+    },
+    "d_34_100": {
+      "url": "draws/d_34_100.json",
+      "hash": "131e3f0e4410a403",
+      "year": 2021,
+      "denomination": 100,
+      "drawNo": 34,
+      "status": "Past"
+    },
+    "d_86_750": {
+      "url": "draws/d_86_750.json",
+      "hash": "5b18cbe9654ff889",
+      "year": 2021,
+      "denomination": 750,
+      "drawNo": 86,
+      "status": "Past"
+    },
+    "d_85_200": {
+      "url": "draws/d_85_200.json",
+      "hash": "cec03e77b713d735",
+      "year": 2021,
+      "denomination": 200,
+      "drawNo": 85,
+      "status": "Past"
+    },
+    "d_1_25000": {
+      "url": "draws/d_1_25000.json",
+      "hash": "fb97e5cf923e8431",
+      "year": 2021,
+      "denomination": 25000,
+      "drawNo": 1,
+      "status": "Past"
+    },
+    "d_85_1500": {
+      "url": "draws/d_85_1500.json",
+      "hash": "a6751a2de5c7e780",
+      "year": 2021,
+      "denomination": 1500,
+      "drawNo": 85,
+      "status": "Past"
+    },
+    "d_33_100": {
+      "url": "draws/d_33_100.json",
+      "hash": "068cb88d3bd7c75e",
+      "year": 2021,
+      "denomination": 100,
+      "drawNo": 33,
+      "status": "Past"
+    },
+    "d_85_750": {
+      "url": "draws/d_85_750.json",
+      "hash": "0a64d6a634329ebc",
+      "year": 2021,
+      "denomination": 750,
+      "drawNo": 85,
+      "status": "Past"
+    },
+    "d_92_200": {
+      "url": "draws/d_92_200.json",
+      "hash": "0615872ecb52d414",
+      "year": 2022,
+      "denomination": 200,
+      "drawNo": 92,
+      "status": "Past"
+    },
+    "d_23_40000": {
+      "url": "draws/d_23_40000.json",
+      "hash": "76bb2612bfff406f",
+      "year": 2022,
+      "denomination": 40000,
+      "drawNo": 23,
+      "status": "Past"
+    },
+    "d_8_25000": {
+      "url": "draws/d_8_25000.json",
+      "hash": "f85b650f685f3230",
+      "year": 2022,
+      "denomination": 25000,
+      "drawNo": 8,
+      "status": "Past"
+    },
+    "d_92_1500": {
+      "url": "draws/d_92_1500.json",
+      "hash": "1d2aaa955761de84",
+      "year": 2022,
+      "denomination": 1500,
+      "drawNo": 92,
+      "status": "Past"
+    },
+    "d_40_100": {
+      "url": "draws/d_40_100.json",
+      "hash": "c496983cb781f63e",
+      "year": 2022,
+      "denomination": 100,
+      "drawNo": 40,
+      "status": "Past"
+    },
+    "d_92_750": {
+      "url": "draws/d_92_750.json",
+      "hash": "71c1d59e2e410e36",
+      "year": 2022,
+      "denomination": 750,
+      "drawNo": 92,
+      "status": "Past"
+    },
+    "d_91_200": {
+      "url": "draws/d_91_200.json",
+      "hash": "67dcc8a8d8792bc0",
+      "year": 2022,
+      "denomination": 200,
+      "drawNo": 91,
+      "status": "Past"
+    },
+    "d_22_40000": {
+      "url": "draws/d_22_40000.json",
+      "hash": "1cf65aecc8d40cce",
+      "year": 2022,
+      "denomination": 40000,
+      "drawNo": 22,
+      "status": "Past"
+    },
+    "d_7_25000": {
+      "url": "draws/d_7_25000.json",
+      "hash": "6a1d957bd5eaa64b",
+      "year": 2022,
+      "denomination": 25000,
+      "drawNo": 7,
+      "status": "Past"
+    },
+    "d_91_1500": {
+      "url": "draws/d_91_1500.json",
+      "hash": "dd2269c5499bf13f",
+      "year": 2022,
+      "denomination": 1500,
+      "drawNo": 91,
+      "status": "Past"
+    },
+    "d_39_100": {
+      "url": "draws/d_39_100.json",
+      "hash": "1167e6b6433e93bd",
+      "year": 2022,
+      "denomination": 100,
+      "drawNo": 39,
+      "status": "Past"
+    },
+    "d_91_750": {
+      "url": "draws/d_91_750.json",
+      "hash": "14e7ed986d0d33e3",
+      "year": 2022,
+      "denomination": 750,
+      "drawNo": 91,
+      "status": "Past"
+    },
+    "d_90_200": {
+      "url": "draws/d_90_200.json",
+      "hash": "f19c45e24ebf055c",
+      "year": 2022,
+      "denomination": 200,
+      "drawNo": 90,
+      "status": "Past"
+    },
+    "d_21_40000": {
+      "url": "draws/d_21_40000.json",
+      "hash": "f7c7e65f18bf0f05",
+      "year": 2022,
+      "denomination": 40000,
+      "drawNo": 21,
+      "status": "Past"
+    },
+    "d_6_25000": {
+      "url": "draws/d_6_25000.json",
+      "hash": "ed3f6dcc165118b6",
+      "year": 2022,
+      "denomination": 25000,
+      "drawNo": 6,
+      "status": "Past"
+    },
+    "d_90_1500": {
+      "url": "draws/d_90_1500.json",
+      "hash": "06024e03278e2692",
+      "year": 2022,
+      "denomination": 1500,
+      "drawNo": 90,
+      "status": "Past"
+    },
+    "d_38_100": {
+      "url": "draws/d_38_100.json",
+      "hash": "ae637e0f56af09f2",
+      "year": 2022,
+      "denomination": 100,
+      "drawNo": 38,
+      "status": "Past"
+    },
+    "d_90_750": {
+      "url": "draws/d_90_750.json",
+      "hash": "a679eab38d525695",
+      "year": 2022,
+      "denomination": 750,
+      "drawNo": 90,
+      "status": "Past"
+    },
+    "d_89_200": {
+      "url": "draws/d_89_200.json",
+      "hash": "eb2d07b0ad0b4d35",
+      "year": 2022,
+      "denomination": 200,
+      "drawNo": 89,
+      "status": "Past"
+    },
+    "d_20_40000": {
+      "url": "draws/d_20_40000.json",
+      "hash": "7067bd90085855fe",
+      "year": 2022,
+      "denomination": 40000,
+      "drawNo": 20,
+      "status": "Past"
+    },
+    "d_5_25000": {
+      "url": "draws/d_5_25000.json",
+      "hash": "fdc5036eab00c6a8",
+      "year": 2022,
+      "denomination": 25000,
+      "drawNo": 5,
+      "status": "Past"
+    },
+    "d_89_1500": {
+      "url": "draws/d_89_1500.json",
+      "hash": "15d9bed5003f7207",
+      "year": 2022,
+      "denomination": 1500,
+      "drawNo": 89,
+      "status": "Past"
+    },
+    "d_37_100": {
+      "url": "draws/d_37_100.json",
+      "hash": "5e201374548672d4",
+      "year": 2022,
+      "denomination": 100,
+      "drawNo": 37,
+      "status": "Past"
+    },
+    "d_89_750": {
+      "url": "draws/d_89_750.json",
+      "hash": "4bd39d2b5e282270",
+      "year": 2022,
+      "denomination": 750,
+      "drawNo": 89,
+      "status": "Past"
+    },
+    "d_97_1500": {
+      "url": "draws/d_97_1500.json",
+      "hash": "a2e116fa48cbb1ba",
+      "year": 2023,
+      "denomination": 1500,
+      "drawNo": 97,
+      "status": "Past"
+    },
+    "d_96_1500": {
+      "url": "draws/d_96_1500.json",
+      "hash": "a9c072edf92b897e",
+      "year": 2023,
+      "denomination": 1500,
+      "drawNo": 96,
+      "status": "Past"
+    },
+    "d_44_100": {
+      "url": "draws/d_44_100.json",
+      "hash": "cbb5cb7c3be16f42",
+      "year": 2023,
+      "denomination": 100,
+      "drawNo": 44,
+      "status": "Past"
+    },
+    "d_96_750": {
+      "url": "draws/d_96_750.json",
+      "hash": "80aaa97c9e700da1",
+      "year": 2023,
+      "denomination": 750,
+      "drawNo": 96,
+      "status": "Past"
+    },
+    "d_95_200": {
+      "url": "draws/d_95_200.json",
+      "hash": "714b3ceee0551e0b",
+      "year": 2023,
+      "denomination": 200,
+      "drawNo": 95,
+      "status": "Past"
+    },
+    "d_26_40000": {
+      "url": "draws/d_26_40000.json",
+      "hash": "ef3b9556b6f2e7c9",
+      "year": 2023,
+      "denomination": 40000,
+      "drawNo": 26,
+      "status": "Past"
+    },
+    "d_11_25000": {
+      "url": "draws/d_11_25000.json",
+      "hash": "8de9eacf55f39d2e",
+      "year": 2023,
+      "denomination": 25000,
+      "drawNo": 11,
+      "status": "Past"
+    },
+    "d_95_1500": {
+      "url": "draws/d_95_1500.json",
+      "hash": "acf508b0f1530616",
+      "year": 2023,
+      "denomination": 1500,
+      "drawNo": 95,
+      "status": "Past"
+    },
+    "d_43_100": {
+      "url": "draws/d_43_100.json",
+      "hash": "8b4363dca98e1db0",
+      "year": 2023,
+      "denomination": 100,
+      "drawNo": 43,
+      "status": "Past"
+    },
+    "d_95_750": {
+      "url": "draws/d_95_750.json",
+      "hash": "cd980c136db9485f",
+      "year": 2023,
+      "denomination": 750,
+      "drawNo": 95,
+      "status": "Past"
+    },
+    "d_94_200": {
+      "url": "draws/d_94_200.json",
+      "hash": "82dd9fbbab5bd2e7",
+      "year": 2023,
+      "denomination": 200,
+      "drawNo": 94,
+      "status": "Past"
+    },
+    "d_25_40000": {
+      "url": "draws/d_25_40000.json",
+      "hash": "5fda9ec69fbccfc2",
+      "year": 2023,
+      "denomination": 40000,
+      "drawNo": 25,
+      "status": "Past"
+    },
+    "d_10_25000": {
+      "url": "draws/d_10_25000.json",
+      "hash": "41a3613b02e3bf3a",
+      "year": 2023,
+      "denomination": 25000,
+      "drawNo": 10,
+      "status": "Past"
+    },
+    "d_94_1500": {
+      "url": "draws/d_94_1500.json",
+      "hash": "57b1fdb7049c1a87",
+      "year": 2023,
+      "denomination": 1500,
+      "drawNo": 94,
+      "status": "Past"
+    },
+    "d_42_100": {
+      "url": "draws/d_42_100.json",
+      "hash": "358acca5be587c57",
+      "year": 2023,
+      "denomination": 100,
+      "drawNo": 42,
+      "status": "Past"
+    },
+    "d_94_750": {
+      "url": "draws/d_94_750.json",
+      "hash": "c11a57246d6c07d4",
+      "year": 2023,
+      "denomination": 750,
+      "drawNo": 94,
+      "status": "Past"
+    },
+    "d_93_200": {
+      "url": "draws/d_93_200.json",
+      "hash": "0bab8cfa1b003677",
+      "year": 2023,
+      "denomination": 200,
+      "drawNo": 93,
+      "status": "Past"
+    },
+    "d_24_40000": {
+      "url": "draws/d_24_40000.json",
+      "hash": "eeb5f1b5c064bb58",
+      "year": 2023,
+      "denomination": 40000,
+      "drawNo": 24,
+      "status": "Past"
+    },
+    "d_9_25000": {
+      "url": "draws/d_9_25000.json",
+      "hash": "c6877ea34adb7153",
+      "year": 2023,
+      "denomination": 25000,
+      "drawNo": 9,
+      "status": "Past"
+    },
+    "d_93_1500": {
+      "url": "draws/d_93_1500.json",
+      "hash": "d3ae182d54075b6b",
+      "year": 2023,
+      "denomination": 1500,
+      "drawNo": 93,
+      "status": "Past"
+    },
+    "d_41_100": {
+      "url": "draws/d_41_100.json",
+      "hash": "d672049ef7aeafe6",
+      "year": 2023,
+      "denomination": 100,
+      "drawNo": 41,
+      "status": "Past"
+    },
+    "d_93_750": {
+      "url": "draws/d_93_750.json",
+      "hash": "badd6a20e3520919",
+      "year": 2023,
+      "denomination": 750,
+      "drawNo": 93,
+      "status": "Past"
+    },
+    "d_16_25000": {
+      "url": "draws/d_16_25000.json",
+      "hash": "0ff74cbf440e6dce",
+      "year": 2024,
+      "denomination": 25000,
+      "drawNo": 16,
+      "status": "Past"
+    },
+    "d_100_1500": {
+      "url": "draws/d_100_1500.json",
+      "hash": "dd99a3a8f627bfde",
+      "year": 2024,
+      "denomination": 1500,
+      "drawNo": 100,
+      "status": "Past"
+    },
+    "d_48_100": {
+      "url": "draws/d_48_100.json",
+      "hash": "a3d21f908a34a794",
+      "year": 2024,
+      "denomination": 100,
+      "drawNo": 48,
+      "status": "Past"
+    },
+    "d_99_200": {
+      "url": "draws/d_99_200.json",
+      "hash": "97f79d552efb6fb3",
+      "year": 2024,
+      "denomination": 200,
+      "drawNo": 99,
+      "status": "Past"
+    },
+    "d_30_40000": {
+      "url": "draws/d_30_40000.json",
+      "hash": "cd191f9f063f41b5",
+      "year": 2024,
+      "denomination": 40000,
+      "drawNo": 30,
+      "status": "Past"
+    },
+    "d_15_25000": {
+      "url": "draws/d_15_25000.json",
+      "hash": "fff9a505a6d3aa15",
+      "year": 2024,
+      "denomination": 25000,
+      "drawNo": 15,
+      "status": "Past"
+    },
+    "d_99_1500": {
+      "url": "draws/d_99_1500.json",
+      "hash": "25a377ef0275aa94",
+      "year": 2024,
+      "denomination": 1500,
+      "drawNo": 99,
+      "status": "Past"
+    },
+    "d_47_100": {
+      "url": "draws/d_47_100.json",
+      "hash": "2026e311127dc861",
+      "year": 2024,
+      "denomination": 100,
+      "drawNo": 47,
+      "status": "Past"
+    },
+    "d_99_750": {
+      "url": "draws/d_99_750.json",
+      "hash": "d3be0b7207effc24",
+      "year": 2024,
+      "denomination": 750,
+      "drawNo": 99,
+      "status": "Past"
+    },
+    "d_98_200": {
+      "url": "draws/d_98_200.json",
+      "hash": "edda9affe6d4f52f",
+      "year": 2024,
+      "denomination": 200,
+      "drawNo": 98,
+      "status": "Past"
+    },
+    "d_29_40000": {
+      "url": "draws/d_29_40000.json",
+      "hash": "08e4d97a42b19817",
+      "year": 2024,
+      "denomination": 40000,
+      "drawNo": 29,
+      "status": "Past"
+    },
+    "d_14_25000": {
+      "url": "draws/d_14_25000.json",
+      "hash": "70d93d3a00adf9ef",
+      "year": 2024,
+      "denomination": 25000,
+      "drawNo": 14,
+      "status": "Past"
+    },
+    "d_98_1500": {
+      "url": "draws/d_98_1500.json",
+      "hash": "839851e1fee0b82a",
+      "year": 2024,
+      "denomination": 1500,
+      "drawNo": 98,
+      "status": "Past"
+    },
+    "d_46_100": {
+      "url": "draws/d_46_100.json",
+      "hash": "0973c73b83c6f5e7",
+      "year": 2024,
+      "denomination": 100,
+      "drawNo": 46,
+      "status": "Past"
+    },
+    "d_98_750": {
+      "url": "draws/d_98_750.json",
+      "hash": "11e1f0fc5b164ca7",
+      "year": 2024,
+      "denomination": 750,
+      "drawNo": 98,
+      "status": "Past"
+    },
+    "d_97_200": {
+      "url": "draws/d_97_200.json",
+      "hash": "3926f2acc9f99dcb",
+      "year": 2024,
+      "denomination": 200,
+      "drawNo": 97,
+      "status": "Past"
+    },
+    "d_28_40000": {
+      "url": "draws/d_28_40000.json",
+      "hash": "1a199e4de5649288",
+      "year": 2024,
+      "denomination": 40000,
+      "drawNo": 28,
+      "status": "Past"
+    },
+    "d_13_25000": {
+      "url": "draws/d_13_25000.json",
+      "hash": "0e337d6d7d8bd0bc",
+      "year": 2024,
+      "denomination": 25000,
+      "drawNo": 13,
+      "status": "Past"
+    },
+    "d_45_100": {
+      "url": "draws/d_45_100.json",
+      "hash": "a6143d46268130cd",
+      "year": 2024,
+      "denomination": 100,
+      "drawNo": 45,
+      "status": "Past"
+    },
+    "d_102_750": {
+      "url": "draws/d_102_750.json",
+      "hash": "abd92b575c61c677",
+      "year": 2025,
+      "denomination": 750,
+      "drawNo": 102,
+      "status": "Past"
+    },
+    "d_101_1500": {
+      "url": "draws/d_101_1500.json",
+      "hash": "35a6d826b5f6c385",
+      "year": 2025,
+      "denomination": 1500,
+      "drawNo": 101,
+      "status": "Past"
+    },
+    "d_49_100": {
+      "url": "draws/d_49_100.json",
+      "hash": "21eb88f279c36fc7",
+      "year": 2025,
+      "denomination": 100,
+      "drawNo": 49,
+      "status": "Past"
+    },
+    "d_108_1500": {
+      "url": "draws/d_108_1500.json",
+      "hash": "8a195bc806ed93ca",
+      "year": 2026,
+      "denomination": 1500,
+      "drawNo": 108,
+      "status": "Announced"
+    },
+    "d_56_100": {
+      "url": "draws/d_56_100.json",
+      "hash": "1deba59895d86158",
+      "year": 2026,
+      "denomination": 100,
+      "drawNo": 56,
+      "status": "Announced"
+    },
+    "d_107_200": {
+      "url": "draws/d_107_200.json",
+      "hash": "6e1e8081adb9fb99",
+      "year": 2026,
+      "denomination": 200,
+      "drawNo": 107,
+      "status": "Past"
+    },
+    "d_38_40000": {
+      "url": "draws/d_38_40000.json",
+      "hash": "f07346e70fbb79f2",
+      "year": 2026,
+      "denomination": 40000,
+      "drawNo": 38,
+      "status": "Past"
+    },
+    "d_23_25000": {
+      "url": "draws/d_23_25000.json",
+      "hash": "155c474193337727",
+      "year": 2026,
+      "denomination": 25000,
+      "drawNo": 23,
+      "status": "Past"
+    },
+    "d_55_100": {
+      "url": "draws/d_55_100.json",
+      "hash": "7e9f2ad61ff582a7",
+      "year": 2026,
+      "denomination": 100,
+      "drawNo": 55,
+      "status": "Past"
+    },
+    "d_37_40000": {
+      "url": "draws/d_37_40000.json",
+      "hash": "adb6500e3453828d",
+      "year": 2026,
+      "denomination": 40000,
+      "drawNo": 37,
+      "status": "Past"
+    },
+    "d_22_25000": {
+      "url": "draws/d_22_25000.json",
+      "hash": "84903a6e2efbb2e9",
+      "year": 2026,
+      "denomination": 25000,
+      "drawNo": 22,
+      "status": "Past"
+    },
+    "d_105_200": {
+      "url": "draws/d_105_200.json",
+      "hash": "f39b054b1552a6c5",
+      "year": 2026,
+      "denomination": 200,
+      "drawNo": 105,
+      "status": "Past"
+    },
+    "d_53_100": {
+      "url": "draws/d_53_100.json",
+      "hash": "c8e8f2a7dfe96a36",
+      "year": 2026,
+      "denomination": 100,
+      "drawNo": 53,
+      "status": "Past"
+    }
+  }
+}
