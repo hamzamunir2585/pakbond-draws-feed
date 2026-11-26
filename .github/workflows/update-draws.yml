@@ -1,0 +1,59 @@
+name: Update Prize Bond Draws Feed
+
+on:
+  schedule:
+    # Run every 6 hours UTC so announced CDNS results propagate rapidly on draw days
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      force_full:
+        description: "Re-crawl all historical official draw files"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  sync-cdns-draws:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install parser dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 certifi
+
+      - name: Fetch official CDNS draws and prune older than 6 years
+        run: |
+          if [ "${{ inputs.force_full }}" = "true" ]; then
+            python scripts/fetch_cdns_draws.py --force-full
+          else
+            python scripts/fetch_cdns_draws.py
+          fi
+
+      - name: Commit updated JSON shards and delta draw files if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          shopt -s nullglob
+          targets=(manifest.json schedule.json draws_*.json draws feed_state.json)
+          for target in "${targets[@]}"; do
+            if [ -e "$target" ]; then
+              git add -A "$target"
+            fi
+          done
+          if git diff --staged --quiet; then
+            echo "No draw updates detected."
+          else
+            git commit -m "chore: update official prize bond draw feed [skip ci]"
+            git push
+          fi
